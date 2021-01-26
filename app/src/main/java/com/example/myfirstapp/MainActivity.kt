@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
             Snackbar.make(view, getString(R.string.action_message), Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+                    .setAction(getString(R.string.action_message2), null).show()
         }
     }
 
